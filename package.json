@@ -4,8 +4,8 @@
   "description": "Emergency management center",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development && node server.js",
-    "build": "webpack --mode development"
+    "start": "webpack --mode production && node server.js",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "112",
